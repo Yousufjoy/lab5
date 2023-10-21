@@ -6,6 +6,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import LoginPage from './src/pages/LoginPage';
 import { createBottomTabNavigator } from '@react-navigation/bottom-tabs';
 import SettingsPage from './src/pages/SettingsPage';
+import NationlizePage from './src/pages/NationalizePage';
 
 
 const stack = createStackNavigator();
@@ -30,6 +31,7 @@ export default function App() {
      
         <bottom_tab.Screen name="Dashboard" component={BasicDashboardScreen} />
         <bottom_tab.Screen name="LoginPage" component={SettingsPage} />
+        <bottom_tab.Screen name="Nationalize" component={NationlizePage} />
 
      
   </bottom_tab.Navigator>
