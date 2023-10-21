@@ -36,7 +36,7 @@ const CounterPage = (props: any) => {
         </View>
 
         <View>
-          <Button title="newone" onPress={navigationHandle}></Button>
+          <Button title="Login" onPress={navigationHandle}></Button>
         </View>
       </View>
     </View>
