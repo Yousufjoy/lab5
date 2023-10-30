@@ -29,7 +29,7 @@ export default function App() {
   <bottom_tab.Navigator>
      
         <bottom_tab.Screen name="Dashboard" component={BasicDashboardScreen} />
-        <bottom_tab.Screen name="LoginPage" component={SettingsPage} />
+        <bottom_tab.Screen name="LoginPage" component={LoginPage} />
 
      
   </bottom_tab.Navigator>
