@@ -2,7 +2,7 @@ import { Button, StyleSheet, Text, View } from "react-native";
 import React from "react";
 
 const CounterPage = (props: any) => {
-  const [counter, setCounter] = React.useState(0);
+  const [counter, setCounter] = React.useState(5);
 
   const increaseHandle = () => {
     setCounter(counter + 1);
